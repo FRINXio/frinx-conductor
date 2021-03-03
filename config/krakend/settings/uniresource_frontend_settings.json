@@ -1,0 +1,14 @@
+{
+    "endpoints": [
+        {
+            "endpoint": "/resourcemanager/frontend",
+            "method": "GET",
+            "url_pattern": "/resourcemanager/frontend"
+        },
+        {
+            "endpoint": "/resourcemanager/frontend/{a}",
+            "method": "GET",
+            "url_pattern": "/resourcemanager/frontend/{a}"
+        }
+    ]
+}

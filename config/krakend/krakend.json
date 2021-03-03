@@ -31,6 +31,8 @@
   "endpoints": [
     {{ template "workflow_frontend.tmpl" .workflow_frontend_settings.endpoints }},
     {{ template "workflow_proxy.tmpl" .workflow_proxy_settings.endpoints }},
+    {{ template "uniresource.tmpl" .uniresource_settings.endpoints }},
+    {{ template "uniresource_frontend.tmpl" .uniresource_frontend_settings.endpoints }},
     {{ template "uniconfig.tmpl" .uniconfig_settings }}
   ]
 }
